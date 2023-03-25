@@ -399,6 +399,6 @@ ul.row {
     display: block;
 }
 
-.social-ling svg {
+.social-ling>svg {
     fill: var(--text-color);
 }
