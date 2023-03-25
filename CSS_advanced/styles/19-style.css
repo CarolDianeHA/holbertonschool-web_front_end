@@ -250,6 +250,7 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -321,11 +322,11 @@ ul.row {
 .col-1-2 {
     width: 50%;
     float: left;
-    padding: 05.rem;
+    padding: 0.5 rem;
 }
 
 .footer-copyright {
-    margin: none;
+    margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
