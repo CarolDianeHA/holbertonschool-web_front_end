@@ -22,7 +22,7 @@
   .button:hover {
     background-color: var(--color-white);
     color: var(--color-primary);
-    transition: background-color var(--transition-duration) var(--transition-cubic-bezier), color var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration), color var(--transition-cubic-bezier), background-color var(--transition-cubic-bezier);
   }
   
   .card-work {
