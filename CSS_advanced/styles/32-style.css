@@ -23,7 +23,7 @@
     background-color: var(--color-white);
     color: var(--color-primary);
     transition: var(--transition-duration);
-    transition-property: var(--transition-cubic-bezier);
+    transition-property: color var(--transition-cubic-bezier), background-color var(--transition-cubic-bezier);
 }
   
   .card-work {
