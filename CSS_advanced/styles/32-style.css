@@ -22,8 +22,8 @@
   .button:hover {
     background-color: var(--color-white);
     color: var(--color-primary);
-    transition: var(--transition-duration);
-  }
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
   
   .card-work {
     position: relative;
