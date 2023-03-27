@@ -1,5 +1,5 @@
 :root {
-    --transition-duration: .3s;
+    --transition-duration: all 0.3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
   }
   
@@ -22,7 +22,7 @@
   .button:hover {
     background-color: var(--color-white);
     color: var(--color-primary);
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
+    transition: background-color var(--transition-duration) var(--transition-cubic-bezier), color var(--transition-duration) var(--transition-cubic-bezier);
 }
   
   .card-work {
